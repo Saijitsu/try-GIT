@@ -20,7 +20,7 @@ __Quelques commandes:
 - git branch -v (verbose)
 - git branch (voir les branches)
 - git checkout [branch name] (change de branch)  / git checkout -b [branch name to create] (Change et crée une branche)
-- git [branch name] -d (--delete) (nécéssite de changer de branch avant de la delete)
+- git branch [branch name] -d (--delete) (nécéssite de changer de branch avant de la delete)
 - nota bene: Si vous créer un fichier sur la nouvelle branch et switchez sur le master par la suite, le fichier va disparaître de votre fichier en local
 // Un git log vous donnera l'historique de l'ensemble des branches
 - nota bene 2: Bien commit avant de changer de branch pour ne pas impacter les des deux branches.
