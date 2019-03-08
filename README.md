@@ -43,11 +43,13 @@ __Github
 - git remote add origin [Adresse du projet sur github]
 - git push [shorthand name for the remote repository] (par convention: origin) [branch name] (master,  envoyer le contenu de notre repository)
 - git pull (récupère le contenu de repository)
-- _exemple:
-- git remote
-- git remote add origin "adresse du repository"
-- git pull (va récupérer le contenu)
-- git push origin --tags (les tags ne seront pas disponible sur github, il faut les push de manière spécifique)
+- _exemple (on dans notre fichier):
+- git init
+- git remote (liste les remote déja dans ce répertoire)
+- git remote add [shorthand name for the remote repository] [adresse du repository]
+- git pull [shorthand name for the remote repository] master (va récupérer le contenu)
+- pour récupérer les tags:
+- git push [shorthand name for the remote repository] --tags (les tags ne seront pas disponible sur github, il faut les push de manière spécifique)
 
 __Best Practice
 
