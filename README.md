@@ -38,6 +38,11 @@ __Quelques commandes:
 - git stash pop (va faire apply + drop <= supprime et applique le contenu de la remise du dernier stash)
 - git stash pop [select a stash id] (sur un stash spécifique)
 
+__Github
+
+- git remote add origin [Adresse du projet sur github]
+- git push origin [branch name] (master)
+
 __Best Practice
 
 - Pour faire un checkout sur un commit précédent il est préférable de créer un branch (ex: git checkout 2fcf -b testOldBranch
