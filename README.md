@@ -48,7 +48,7 @@ __Github
 - git remote (liste les remote déja dans ce répertoire)
 - git remote add [shorthand name for the remote repository] [adresse du repository]
 - git pull [shorthand name for the remote repository] [branch name] (va récupérer le contenu)
-- git push [shorthand name for the remote repository] [branch name] (va récupérer le contenu)
+- git push [shorthand name for the remote repository] [branch name] (va envoyer le contenu)
 
 - pour récupérer les tags:
 - git push [shorthand name for the remote repository] --tags (les tags ne seront pas disponible sur github, il faut les push de manière spécifique)
