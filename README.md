@@ -33,7 +33,10 @@ __Best Practice
 Switched to a new branch 'testOldBranch')
 - On peut check l'historique des branches ensuite: git log --oneline --all --graph
 ![alt text](https://i.ibb.co/2k76DWs/Capture.png)
-- On commit toujours sur la branche principale (du plus éloigné vers le master).
+- On commit toujours sur la branche principale (du plus éloigné vers le master)
+- Supprimer la branch qui à fait l'objet d'une fusion (merge): git branch nomBranchADelete -d
+- Ne pas laisser vivre une branch trop longtemps (risque de conflit)
+- visuel: ![alt text](https://i.ibb.co/tpnqH2c/Capture3.png)
 
 __Autres commandes utiles hors GIT:
 
