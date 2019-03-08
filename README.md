@@ -26,14 +26,16 @@ __Quelques commandes:
 - nota bene 2: Bien commit avant de changer de branch pour ne pas impacter les des deux branches.
 - git merge [branch name] (va Merge les fichiers sur la branche actuel s'il n'y a pas de conflit: fusion des fichiers)
 ![alt text](https://i.ibb.co/LnQ9RVD/Capture2.png)
-- git stash (va mettre en remise toute les modifications en cours "Saved working directory and index state WIP on [branch name]", sans commit)
+- git stash (va mettre en remise toute les modifications en cours "Saved working directory and index state WIP on [branch name]", sans commit // Utiliser avec parcimonie)
 - git stash list (vérifier le contenu de la remise)
 -// Ex: stash@{0}: WIP on dev: 625f875 Add html link
 - git stash show stash@{0} (vérifier le contenu de la remise)
 -// contact.html | 1 +
 -// 1 file changed, 1 insertion(+)
 - git stash apply (Va permettre de récupérer les modification sur la branch ou l'on se trouve, // faire git stash list<= pour vérifier ou se trouve le stash)
-- git stash drop (Dropped refs/stash@{0} [commit id])
+- git stash drop (Dropped refs/stash@{0} [commit id] <= va supprimer la remise en haut de la liste)
+- git stash clear (Clear l'ensemble des stash)
+
 
 __Best Practice
 
