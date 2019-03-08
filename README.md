@@ -42,7 +42,11 @@ __Github
 
 - git remote add origin [Adresse du projet sur github]
 - git push [shorthand name for the remote repository] (par convention: origin) [branch name] (master,  envoyer le contenu de notre repository)
-- git pull
+- git pull (récupère le contenu de repository)
+- _exemple:
+- git remote
+- git remote add origin "adresse du repository"
+- git pull (va récupérer le contenu)
 
 __Best Practice
 
@@ -55,6 +59,7 @@ Switched to a new branch 'testOldBranch')
 - Ne pas laisser vivre une branch trop longtemps (risque de conflit)
 ![alt text](https://i.ibb.co/tpnqH2c/Capture3.png)
 - En cas de conflit lors d'une merge: il faudra solutionner le conflit
+- //WORKING DAY// Commencer la session de travail par un PULL, puis résoudre les éventuels CONFLIT(S), éventuel COMMIT, commencer la journée de travail, refaire un PULL (vérifiée l'absence de CONFLITS et contrôle du code/ et éventuel COMMIT, faire un pull de vérification), faire sont PUSH!
 
 __Autres commandes utiles hors GIT:
 
