@@ -23,6 +23,16 @@ __Quelques commandes:
 - git nomDeLaBranch -d (--delete) (nécéssite de changer de branch avant de la delete)
 - nota bene: Si vous créer un fichier sur la nouvelle branch et switchez sur le master par la suite, le fichier va disparaître de votre fichier en local
 // Un git log vous donnera l'historique de l'ensemble des branches
+- nota bene 2: Bien commit avant de changer de branch pour ne pas impacter les des deux branches.
+- git merge nomDeLaBranch (va Merge les fichiers sur la branche actuel s'il n'y a pas de conflit: fusion des fichiers)
+- Visuel: ![alt text](https://ibb.co/t8ZYKVw)
+
+__Best Practice
+
+- Pour faire un checkout sur un commit précédent il est préférable de créer un branch (ex: git checkout 2fcf -b testOldBranch
+Switched to a new branch 'testOldBranch')
+- on peu check l'historique des branches ensuite: git log --oneline --all --graph
+![alt text](https://ibb.co/x7SspXf)
 
 __Autres commandes utiles hors GIT:
 
