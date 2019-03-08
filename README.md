@@ -5,26 +5,26 @@ __Quelques commandes:
 - git config user.name
 - git config user.email
 - git status
-- git add (--all) (-A) nomFichier
+- git add (--all) (-A) [file name]
 - git commint (-am "commentaire") (--amend)
-- git rm (remove) nomDuFichier
+- git rm (remove) [file name]
 - git show (tag) (id d'un commit)
-- git tag (nomDuTag) (-a -m "commentaire') (id_commit) --list nX (X: numéro dans la liste)
+- git tag [tag name] (-a -m "commentaire') (id_commit) --list nX (X: numéro dans la liste)
 - git reset --hard
 - git blame
-- git diff (nomDuFichier) id_duCommit id_duCommit2 (ou tag(s)) (ex: git diff dev master <= compare les modification entre la branch dev et master)
+- git diff [file name] id_duCommit id_duCommit2 (ou tag(s)) (ex: git diff dev master <= compare les modification entre la branch dev et master)
 - git log --oneline -3
 - git help commande (nom de ma commande)
 - git checkout
-- git branch nomDeLaBranchACreer (creer une branche)
+- git branch [branch name to create] (creer une branche)
 - git branch -v (verbose)
 - git branch (voir les branches)
-- git checkout nomDeLaBranch (change de branch)  / git checkout -b nomDeLaNouvelleBranch (Change et crée une branche)
-- git nomDeLaBranch -d (--delete) (nécéssite de changer de branch avant de la delete)
+- git checkout [branch name] (change de branch)  / git checkout -b [branch name to create] (Change et crée une branche)
+- git [branch name] -d (--delete) (nécéssite de changer de branch avant de la delete)
 - nota bene: Si vous créer un fichier sur la nouvelle branch et switchez sur le master par la suite, le fichier va disparaître de votre fichier en local
 // Un git log vous donnera l'historique de l'ensemble des branches
 - nota bene 2: Bien commit avant de changer de branch pour ne pas impacter les des deux branches.
-- git merge nomDeLaBranch (va Merge les fichiers sur la branche actuel s'il n'y a pas de conflit: fusion des fichiers)
+- git merge [branch name] (va Merge les fichiers sur la branche actuel s'il n'y a pas de conflit: fusion des fichiers)
 ![alt text](https://i.ibb.co/LnQ9RVD/Capture2.png)
 
 __Best Practice
@@ -34,7 +34,7 @@ Switched to a new branch 'testOldBranch')
 - On peut check l'historique des branches ensuite: git log --oneline --all --graph
 ![alt text](https://i.ibb.co/2k76DWs/Capture.png)
 - On commit toujours sur la branche principale (du plus éloigné vers le master)
-- Supprimer la branch qui à fait l'objet d'une fusion (merge): git branch nomBranchADelete -d
+- Supprimer la branch qui à fait l'objet d'une fusion (merge): git branch [branch name to delete] -d
 - Ne pas laisser vivre une branch trop longtemps (risque de conflit)
 ![alt text](https://i.ibb.co/tpnqH2c/Capture3.png)
 - En cas de conflit lors d'une merge: il faudra solutionner le conflit
