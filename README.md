@@ -38,6 +38,7 @@ Switched to a new branch 'testOldBranch')
 - Ne pas laisser vivre une branch trop longtemps (risque de conflit)
 ![alt text](https://i.ibb.co/tpnqH2c/Capture3.png)
 - En cas de conflit lors d'une merge: il faudra solutionner le conflit
+
 __Autres commandes utiles hors GIT:
 
 - cd "chemin du fichier"
