@@ -26,6 +26,9 @@ __Quelques commandes:
 - nota bene 2: Bien commit avant de changer de branch pour ne pas impacter les des deux branches.
 - git merge [branch name] (va Merge les fichiers sur la branche actuel s'il n'y a pas de conflit: fusion des fichiers)
 ![alt text](https://i.ibb.co/LnQ9RVD/Capture2.png)
+- git stash (va mettre en remise toute les modifications en cours "Saved working directory and index state WIP on [branch name]", sans commit)
+- git stash list (vérifier le contenu de la remise)
+Ex: stash@{0}: WIP on dev: 625f875 Add html link
 
 __Best Practice
 
