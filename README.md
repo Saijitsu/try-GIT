@@ -29,13 +29,14 @@ __Quelques commandes:
 - git stash (va mettre en remise toute les modifications en cours "Saved working directory and index state WIP on [branch name]", sans commit // Utiliser avec parcimonie)
 - git stash list (vérifier le contenu de la remise)
 -// Ex: stash@{0}: WIP on dev: 625f875 Add html link
-- git stash show stash@{0} (vérifier le contenu de la remise)
+- git stash show stash@{0} (vérifier le contenu de la remise, celui en haut de la liste est le plus récent)
 -// contact.html | 1 +
 -// 1 file changed, 1 insertion(+)
 - git stash apply (Va permettre de récupérer les modification sur la branch ou l'on se trouve, // faire git stash list<= pour vérifier ou se trouve le stash)
 - git stash drop (Dropped refs/stash@{0} [commit id] <= va supprimer la remise en haut de la liste)
 - git stash clear (Clear l'ensemble des stash)
-
+- git stash pop (va faire apply + drop <= supprime et applique le contenu de la remise du dernier stash)
+- git stash pop [select a stash id] (sur un stash spécifique)
 
 __Best Practice
 
