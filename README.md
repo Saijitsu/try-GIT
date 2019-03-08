@@ -28,7 +28,11 @@ __Quelques commandes:
 ![alt text](https://i.ibb.co/LnQ9RVD/Capture2.png)
 - git stash (va mettre en remise toute les modifications en cours "Saved working directory and index state WIP on [branch name]", sans commit)
 - git stash list (vérifier le contenu de la remise)
-Ex: stash@{0}: WIP on dev: 625f875 Add html link
+-// Ex: stash@{0}: WIP on dev: 625f875 Add html link
+- git stash show stash@{0} (vérifier le contenu de la remise)
+-// contact.html | 1 +
+-// 1 file changed, 1 insertion(+)
+
 
 __Best Practice
 
