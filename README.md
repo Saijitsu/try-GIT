@@ -25,14 +25,14 @@ __Quelques commandes:
 // Un git log vous donnera l'historique de l'ensemble des branches
 - nota bene 2: Bien commit avant de changer de branch pour ne pas impacter les des deux branches.
 - git merge nomDeLaBranch (va Merge les fichiers sur la branche actuel s'il n'y a pas de conflit: fusion des fichiers)
-- Visuel: ![alt text](https://ibb.co/t8ZYKVw)
+- Visuel: ![alt text](https://i.ibb.co/LnQ9RVD/Capture2.png)
 
 __Best Practice
 
 - Pour faire un checkout sur un commit précédent il est préférable de créer un branch (ex: git checkout 2fcf -b testOldBranch
 Switched to a new branch 'testOldBranch')
 - on peu check l'historique des branches ensuite: git log --oneline --all --graph
-![alt text](https://ibb.co/x7SspXf)
+![alt text](https://i.ibb.co/2k76DWs/Capture.png)
 
 __Autres commandes utiles hors GIT:
 
