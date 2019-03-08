@@ -25,7 +25,7 @@ __Quelques commandes:
 // Un git log vous donnera l'historique de l'ensemble des branches
 - nota bene 2: Bien commit avant de changer de branch pour ne pas impacter les des deux branches.
 - git merge nomDeLaBranch (va Merge les fichiers sur la branche actuel s'il n'y a pas de conflit: fusion des fichiers)
-- Visuel: ![alt text](https://i.ibb.co/LnQ9RVD/Capture2.png)
+![alt text](https://i.ibb.co/LnQ9RVD/Capture2.png)
 
 __Best Practice
 
