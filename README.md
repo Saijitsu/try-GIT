@@ -12,7 +12,7 @@ __Quelques commandes:
 - git tag (nomDuTag) (-a -m "commentaire') (id_commit) --list nX (X: numéro dans la liste)
 - git reset --hard
 - git blame
-- git diff (nomDuFichier) id_duCommit id_duCommit2 (ou tag(s))
+- git diff (nomDuFichier) id_duCommit id_duCommit2 (ou tag(s)) (ex: git diff dev master <= compare les modification entre la branch dev et master)
 - git log --oneline -3
 - git help commande (nom de ma commande)
 - git checkout
@@ -36,8 +36,8 @@ Switched to a new branch 'testOldBranch')
 - On commit toujours sur la branche principale (du plus éloigné vers le master)
 - Supprimer la branch qui à fait l'objet d'une fusion (merge): git branch nomBranchADelete -d
 - Ne pas laisser vivre une branch trop longtemps (risque de conflit)
-- visuel: ![alt text](https://i.ibb.co/tpnqH2c/Capture3.png)
-
+![alt text](https://i.ibb.co/tpnqH2c/Capture3.png)
+- En cas de conflit lors d'une merge: il faudra solutionner le conflit
 __Autres commandes utiles hors GIT:
 
 - cd "chemin du fichier"
