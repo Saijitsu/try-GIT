@@ -31,8 +31,9 @@ __Best Practice
 
 - Pour faire un checkout sur un commit précédent il est préférable de créer un branch (ex: git checkout 2fcf -b testOldBranch
 Switched to a new branch 'testOldBranch')
-- on peu check l'historique des branches ensuite: git log --oneline --all --graph
+- On peut check l'historique des branches ensuite: git log --oneline --all --graph
 ![alt text](https://i.ibb.co/2k76DWs/Capture.png)
+- On commit toujours sur la branche principale (du plus éloigné vers le master).
 
 __Autres commandes utiles hors GIT:
 
