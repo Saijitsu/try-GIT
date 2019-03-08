@@ -41,7 +41,8 @@ __Quelques commandes:
 __Github
 
 - git remote add origin [Adresse du projet sur github]
-- git push origin [branch name] (master)
+- git push [shorthand name for the remote repository] (par convention: origin) [branch name] (master,  envoyer le contenu de notre repository)
+- git pull
 
 __Best Practice
 
