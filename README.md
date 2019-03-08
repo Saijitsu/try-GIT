@@ -47,6 +47,7 @@ __Github
 - git remote
 - git remote add origin "adresse du repository"
 - git pull (va récupérer le contenu)
+- git push origin --tags (les tags ne seront pas disponible sur github, il faut les push de manière spécifique)
 
 __Best Practice
 
