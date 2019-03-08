@@ -32,7 +32,8 @@ __Quelques commandes:
 - git stash show stash@{0} (vérifier le contenu de la remise)
 -// contact.html | 1 +
 -// 1 file changed, 1 insertion(+)
-
+- git stash apply (Va permettre de récupérer les modification sur la branch ou l'on se trouve, // faire git stash list<= pour vérifier ou se trouve le stash)
+- git stash drop (Dropped refs/stash@{0} [commit id])
 
 __Best Practice
 
