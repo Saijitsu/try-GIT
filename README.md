@@ -70,4 +70,4 @@ Switched to a new branch 'testOldBranch')
 **Autres commandes utiles hors GIT:**
 
 - **cd [file link]**
-- ** voir les modalités d'utilisation de l'extension de fichier .gitignore, avec la balise "*" **
+- **Voir les modalités d'utilisation de l'extension de fichier .gitignore**
