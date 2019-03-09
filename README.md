@@ -1,5 +1,6 @@
 # GIT
-**Quelques commandes:**
+
+## **Quelques commandes:**
 
 - **git init**
 - **git config user.name**
@@ -39,7 +40,7 @@
 - **git stash pop** (va faire apply + drop <= supprime et applique le contenu de la remise du dernier stash)
 - **git stash pop [select a stash id]**(sur un stash spécifique)
 
-**Github**
+## **Github**
 
 - **git remote add origin [Adresse du projet sur github]**
 - **git push [shorthand name for the remote repository]** (par convention: origin) [branch name] (master,  envoyer le contenu de notre repository)
@@ -54,7 +55,7 @@
 - pour récupérer les tags:
 - git push [shorthand name for the remote repository] --tags (les tags ne seront pas disponible sur github, il faut les push de manière spécifique)
 
-**Best Practice**
+## **Best Practice**
 
 - Pour faire un checkout sur un commit précédent il est préférable de créer un branch (ex: git checkout 2fcf -b testOldBranch
 Switched to a new branch 'testOldBranch')
@@ -67,7 +68,7 @@ Switched to a new branch 'testOldBranch')
 - En cas de conflit lors d'une merge: il faudra solutionner le conflit
 - **//WORKING DAY// Commencer la session de travail par un PULL, puis résoudre les éventuels CONFLIT(S), éventuel COMMIT, commencer la journée de travail, refaire un PULL (vérifiée l'absence de CONFLITS et contrôle du code/ et éventuel COMMIT, faire un pull de vérification), faire sont PUSH!**
 
-**Autres commandes utiles hors GIT:**
+## **Autres commandes utiles hors GIT:**
 
 - **cd [file link]**
 - **Voir les modalités d'utilisation de l'extension de fichier .gitignore**
