@@ -7,7 +7,7 @@
 - **git config user.email**
 - **git status**
 - **git add (--all / -A) [file name]**
-- **git commint (-m / -am "commentaire") (--amend)**
+- **git commit (-m / -am "commentaire") (--amend)**
 - **git rm (remove) [file name]**
 - **git show [tag name] [commit id]**
 - **git tag [tag name] (-a -m "commentaire') [commit id] --list nX**(X: numéro dans la liste)
